@@ -1,13 +1,20 @@
 public class TiposVariaveis {
 
     public static void main(String[] args) throws Exception {
-        byte numero1 = 100;
-        short  numero2=numero1;
-        numero1 = (byte) numero2;
-        System.out.println(numero1);
+        byte idade = 123;
+		short ano = 2021;
+		int cep = 21070333; 
+		long cpf = 98765432109L; 
+		final float PI = 3.14F;
+		double salario = 1275.33;
 
-        final double VALOR_DE_PI = 3.14;
-        System.out.println(VALOR_DE_PI);
+        System.out.println(idade);
+        System.out.println(ano);
+        System.out.println(cep);
+        System.out.println(cpf);
+        System.out.println(PI);
+        System.out.println(salario);
+
     }
     
 }
